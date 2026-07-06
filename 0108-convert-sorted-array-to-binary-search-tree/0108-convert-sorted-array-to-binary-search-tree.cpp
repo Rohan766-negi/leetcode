@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-     TreeNode* mkbst(int s, int e, vector<int> ino) {
+     TreeNode* mkbst(int s, int e, vector<int>&ino) {
         if (s > e) {
             return NULL;
         }
